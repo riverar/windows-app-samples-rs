@@ -16,13 +16,13 @@ This repository contains samples that demonstrate API usage patterns for the Win
 ### Microsoft.UI
 |   |   |
 |---|---|
-|ColorHelper| |
-|Colors| |
+|ColorHelper| [colors](/../../tree/master/colors) |
+|Colors| [colors](/../../tree/master/colors) |
 |DisplayId| |
-|IColorHelper| |
-|IColorHelperStatics| |
-|IColors| |
-|IColorsStatics| |
+|IColorHelper| [colors](/../../tree/master/colors) |
+|IColorHelperStatics| [colors](/../../tree/master/colors) |
+|IColors| [colors](/../../tree/master/colors) |
+|IColorsStatics| [colors](/../../tree/master/colors) |
 |IconId| |
 |WindowId| |
 |   |   |

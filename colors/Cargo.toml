@@ -1,0 +1,25 @@
+[package]
+name = "sample"
+version = "0.0.0"
+publish = false
+edition = "2021"
+
+[dependencies.windows]
+version = "0.28"
+features = [
+    "std",
+    "alloc"
+]
+
+[build-dependencies.windows-app]
+git = "https://github.com/microsoft/windows-app-rs"
+features = [
+    "WindowsAppSdk_Foundation"
+]
+
+[dependencies.windows-app]
+git = "https://github.com/microsoft/windows-app-rs"
+features = [
+    "WindowsAppSdk_Foundation",
+    "UI",
+]
